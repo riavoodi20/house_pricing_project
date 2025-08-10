@@ -1,5 +1,3 @@
-# house_pricing_project
-
 # House Price Prediction with XGBoost
 
 Predicting house prices using the Ames Housing Dataset with machine learning. Achieves strong performance through feature engineering and XGBoost optimization.
