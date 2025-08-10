@@ -39,12 +39,14 @@ model.fit(X_train, y_train)
 
 ##  Structure
 ```
-├── data/
-│   └── df_model_ready.csv    # Processed dataset
-├── 01_eda_preprocessing.py   # Data exploration & cleaning
-├── 02_feature_engineering.py # Feature creation
-├── 03_model_comparison.py    # Algorithm comparison
-└── 04_final_xgboost.py      # Optimized final model
+├── data/                           # Dataset files
+├── models/                         # Saved model files
+├── outputs/                        # Results and visualizations
+├── config.py                       # Configuration settings
+├── data_preprocessing.py           # Data cleaning & EDA
+├── feature_engineering.py          # Feature creation
+├── model_training.py               # Model training & evaluation
+└── main.py                         # Main execution script
 ```
 
 ## Results
