@@ -4,14 +4,14 @@ Predicting house prices using the Ames Housing Dataset with machine learning. Ac
 
 ## Results
 - **Model:** XGBoost Regressor
-- **Test R²:** 0.XXX
-- **Test RMSE:** $XX,XXX
+- **Test R²:** 0.818
+- **Test RMSE:** $37,314
 - **Features:** 17 engineered features from 79 original variables
 
-## 🛠️ Tech Stack
+##  Tech Stack
 Python • pandas • scikit-learn • XGBoost • matplotlib
 
-## 📊 Approach
+# Approach
 
 **Data Processing:**
 - Handled missing values with domain knowledge (e.g., 'None' for missing garage = no garage)
@@ -25,7 +25,7 @@ Compared Linear Regression, Random Forest, Gradient Boosting, and XGBoost. XGBoo
 **Key Features:**
 TotalSF • OverallQual • GrLivArea • HouseAge • ExterQual_num • TotalBath • GarageCars
 
-## 🚀 Usage
+## Usage
 
 ```python
 import xgboost as xgb
@@ -43,7 +43,7 @@ model = xgb.XGBRegressor(
 model.fit(X_train, y_train)
 ```
 
-## 📁 Structure
+## Structure
 ```
 ├── data/                           # Dataset files
 ├── models/                         # Saved model files
